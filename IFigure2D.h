@@ -1,4 +1,7 @@
-class IFigure2D{
+#pragma once
+
+class IFigure2D {
 public:
-  virtual void square() = 0;
+    virtual void square() = 0;
+    virtual ~IFigure2D() = default;
 };
